@@ -5,15 +5,15 @@ Create WebRTC Library
 
 '''gradle
 allprojects {
-    repositories {
-      mavenCentral()
-       maven { url "https://jitpack.io" }
-        }
-   }
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 > Step 2. Add the dependency
 '''gradle
   dependencies {
-        implementation 'com.github.User:Repo:Version'
-   }
+	        implementation 'com.github.abhishekb4:WebRTC:Tag'
+	}
 '''
 
